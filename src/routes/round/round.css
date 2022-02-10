@@ -1,0 +1,103 @@
+.headingWrapper {
+  padding: 0.8rem 0 0 0;
+}
+.round__header {
+  font-size: 20px;
+}
+.textWrapper {
+  display: flex;
+  padding: 0;
+  margin-top: 1rem;
+}
+.alignBottom {
+  align-self: flex-end;
+}
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.3rem;
+}
+.linkStyle {
+  color: #fa04f6;
+  cursor: pointer;
+  text-decoration: none;
+}
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+}
+.btnContainer {
+  margin-top: 1rem;
+  width: 100%;
+}
+.btnWidth {
+  width: 100%;
+}
+.playerContainer {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 35vh;
+}
+.marginBottom {
+  margin-bottom: 0.5rem;
+}
+.zeroMargin {
+  margin: 0;
+}
+.secondaryColor {
+  color: #fa04f6;
+}
+.linkWrapper {
+  margin-top: 20px;
+}
+
+.scoringContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.questionMark {
+  margin-left: auto;
+  margin-right: 0.5rem;
+  align-items: baseline;
+}
+
+@media screen and (max-width: 600px) {
+  .round__header {
+    font-size: 16px;
+  }
+  .linkWrapper {
+    margin-top: 12px;
+  }
+  .btnContainer {
+    margin-top: 0.8rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  .headingWrapper {
+    padding: 0.2rem 0 0.3rem 0;
+  }
+  .round__header {
+    font-size: 14px;
+  }
+  .textWrapper {
+    font-size: 10px;
+  }
+  .btnContainer {
+    margin-top: 0.6rem;
+  }
+  .marginBottom {
+    margin-bottom: 0.2rem;
+  }
+  .scoringContainer {
+    margin-right: 26px;
+  }
+  .playerContainer {
+    height: 38vh;
+  }
+}
+@media screen and (max-width: 320px) {
+  .scoringContainer {
+    margin-right: 16px;
+  }
+}

@@ -1,0 +1,27 @@
+.secondaryBtn {
+  background: #2c2247;
+  border-radius: 10px;
+  border: none;
+  padding: 16px 32px;
+  font-size: large;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transform-origin: 50% 50%;
+  transition: transform 200ms ease, background-color 150ms ease;
+  text-align: center;
+  text-decoration: none;
+}
+
+.secondaryBtn:active {
+    transform: scale(0.97);
+  } 
+
+  @media screen and (max-width: 600px) {
+    .secondaryBtn {
+      padding: 16px 16px;
+      font-size: medium;
+      font-weight: 500;
+    }
+  }
+

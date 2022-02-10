@@ -1,0 +1,39 @@
+.select {
+  background-color: white;
+  color: rgba(11, 0, 44, 0.85);
+  outline: none;
+  border: none;
+  border-radius: 0.2rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+.inputButton {
+  float: right;
+}
+
+.names {
+  font-family: metamorphous;
+}
+
+@media screen and (max-width: 375px) {
+  .select {
+    font-size: 10px;
+    width: 100%;
+  }
+  .inputButton {
+    width: 28%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .select {
+    font-size: 10px;
+  }
+  .select {
+    font-size: 8px;
+  }
+  .inputButton {
+    width: 33%;
+  }
+  
+}
